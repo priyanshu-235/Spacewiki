@@ -357,11 +357,34 @@ footer  input, textarea, button {
     .logo>img:hover{
         cursor:default;
     }
-    header,.options,nav ,.navbar,.logo{
+    header,.options{
         margin-bottom: 10px;
         height: 10vh;
         background-color: black;
         width: 100vw;
+        height: 15%;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .navbar{
+        width: 100vw;
+        position: relative;
+        bottom: 3px;
+        left: 0px;
+        margin: 0;
+        background-color: black;
+        padding: 0;
+        height: 15vh;
+        z-index: 3;
+    }
+    .options>ul{
+        top: 33px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width:30vw;
+        margin-right: 0px;
     }
 
 
@@ -369,6 +392,7 @@ footer  input, textarea, button {
     .planets {
         flex-direction: column;
         align-items: center; 
+        height: auto;
     }
     .constellations{
         top: 220vh;
@@ -381,6 +405,7 @@ footer  input, textarea, button {
     .planets .cellestials {
         width: 100%; 
         flex-direction: column; 
+        height: auto;
     }
 
     .card {
