@@ -129,9 +129,12 @@ body{
 
     .sidebar {
         width: 100%;
+        max-width: 100%;
         text-align: center;
     }
-
+    .sidebar-container{
+        width: 100%;
+    }
     .content {
         width: 100%;
     }
