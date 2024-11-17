@@ -19,16 +19,16 @@ body {
 
 
 .quiz-container {
-    height: 100vh;
+    height: 98vh;
     background: rgba(30, 30, 30, 0.8); 
     padding: 30px;
     border-radius: 15px;
-    width: 80%;
+    width: 78%;
     max-width: 800px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
     text-align: center;
-    animation: fadeIn 1s ease-in-out;
-    overflow-y: scroll;
+    animation: fade 1s ease-in-out;
+    overflow: scroll;
 }
 
 
@@ -100,7 +100,7 @@ body {
 }
 
 
-@keyframes fadeIn {
+@keyframes fade {
     0% {
         opacity: 0;
         transform: translateY(-20px);
