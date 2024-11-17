@@ -103,11 +103,13 @@ body {
 
 .planet-section .images {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 55px;
 }
 
 .planet-section .images img {
-    width: 48%;
+    width: 38%;
+    height: 55vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
