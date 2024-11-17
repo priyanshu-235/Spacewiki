@@ -118,10 +118,10 @@ justify-content: space-evenly;
 .intro_text h1 {
     font-size: 3rem;
     background: linear-gradient(29deg, rgba(255,255,255,1) 0%, rgba(251,248,248,1) 40%, rgba(5,12,115,1) 90%); /* Gradient colors */
-    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-background-clip: text; 
     background-clip: text;
-    -webkit-text-fill-color: transparent; /* Makes the text itself transparent */
-    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Optional glow effect */
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
     margin-bottom: 20px;
 }
 
@@ -186,11 +186,10 @@ justify-content: space-evenly;
     text-align: center;
     transition-property: all;
     transition:0.3s ease;
-    /* transition: box-shadow 0.3s ease; */
+   
 }
 .card>img{
-    /* position: relative;
-    right: 12px; */
+    
     padding: 10px;
     height:75% ;
     width:100%;
@@ -205,31 +204,30 @@ justify-content: space-evenly;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10svh; /* Full height for centering */
+    height: 10svh; 
 }
 
-/* Button Styles */
-/* Button Styles */
+
 .watch-button {
     display: inline-block;
     text-decoration: none;
-    color: white; /* Text color */
-    font-size: 1.2rem; /* Slightly smaller font size */
+    color: white; 
+    font-size: 1.2rem; 
     font-weight: bold;
-    letter-spacing: 0.5px; /* Slightly less spacing */
+    letter-spacing: 0.5px; 
     text-align: center;
 
-    padding: 8px 20px; /* Smaller padding */
-    border: 2px solid white; /* Border style */
-    position: relative; /* Position for pseudo-elements */
-    transition: all 0.4s ease-in-out; /* Smooth transition for hover effects */
+    padding: 8px 20px; 
+    border: 2px solid white; 
+    position: relative; 
+    transition: all 0.4s ease-in-out; 
 }
 
 /* Hover Effect */
 .watch-button:hover {
-    color: #00bfff; /* Change text color to space blue on hover */
-    border-color: #00bfff; /* Change border color to space blue on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    color: #00bfff; 
+    border-color: #00bfff; 
+    transform: scale(1.05); 
 }
 .constellations{
     position: relative;
@@ -253,57 +251,50 @@ justify-content: space-evenly;
     width: 95vw;
     border-radius: 15px;
 }
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Constellations Box */
+
 .constellations-box {
     display: flex;
-    flex-wrap: wrap; /* Makes it responsive */
-    justify-content: space-between; /* Distributes space between items */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     align-items: center;
     margin: 20px auto;
     padding: 20px;
-    background-color: #121212; /* Dark background */
-    border: 1px solid #333; /* Subtle border for separation */
-    border-radius: 10px; /* Rounded corners */
-    max-width: 900px; /* Constrain width */
+    background-color: #1313139b;
+    border: 1px solid rgba(51, 34, 136, 0.861); 
+    border-radius: 10px; 
+    max-width: 900px; 
     color: white;
 }
 
-/* Constellation Image */
+
 .constellation-image img {
     height: 50vh;
-    width: 100%; /* Responsive image */
-     /* Limit the image size */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    width: 100%; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-/* Constellation Intro */
+
 .constellation-intro {
-    flex: 1; /* Allows content to grow */
-    margin-left: 20px; /* Adds spacing between image and text */
+    flex: 1; 
+    margin-left: 20px; 
     text-align: justify;
 }
 
 .constellation-intro .info p {
-    font-size: 1rem; /* Standard readable font size */
-    line-height: 1.6; /* Better readability */
+    font-size: 1rem; 
+    line-height: 1.6; 
     margin-bottom: 15px;
 }
 
-/* Know More Button */
+
 .constellation-intro .know-more a {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
 }
 
 .constellation-intro .know-more button {
-    background-color: #0066ff; /* Space blue color */
+    background-color: #0066ff; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -315,25 +306,25 @@ justify-content: space-evenly;
 }
 
 .constellation-intro .know-more button:hover {
-    background-color: #004dcc; /* Darker blue on hover */
-    transform: translateY(-3px); /* Slight hover lift */
-    box-shadow: 0 4px 8px rgba(0, 102, 255, 0.4); /* Subtle shadow */
+    background-color: #004dcc; 
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 8px rgba(0, 102, 255, 0.4);
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .constellations-box {
-        flex-direction: column; /* Stacks the image and text */
+        flex-direction: column; 
         text-align: center;
     }
 
     .constellation-image img {
-        max-width: 100%; /* Full width for smaller screens */
+        max-width: 100%; 
         margin-bottom: 15px;
     }
 
     .constellation-intro {
-        margin-left: 0; /* Remove left margin on smaller screens */
+        margin-left: 0;
     }
 }
 
@@ -347,7 +338,7 @@ justify-content: space-evenly;
 }
 
 
-/* Footer */
+
 footer {
     
     color: #FFFFFF;

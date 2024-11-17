@@ -1,27 +1,26 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
+
 body {
     background-image:url('./stars-background.jpg');
     color: white;
     font-family: Arial, sans-serif;
     background-size: cover;
-    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
-/* Container */
+
 .container {
     display: flex;
     flex-direction: row;
     height: 100vh;
 }
 
-/* Sidebar Navigation */
+
 .sidebar {
     width: 20%;
     display: flex;
@@ -29,7 +28,7 @@ body {
     justify-content: start;
     align-items: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.404); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.404); 
     border-right: 2px solid rgba(255, 255, 255, 0.1);
     overflow-y: auto;
 }
@@ -46,7 +45,7 @@ body {
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
-    background: linear-gradient(45deg, #000280, #ff4500, #ffcc00); /* Vibrant gradient */
+    background: linear-gradient(45deg, #000280, #ff4500, #ffcc00); 
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,7 +61,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: #ffcc00; /* Golden yellow for links */
+    color: #ffcc00; 
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
@@ -70,24 +69,24 @@ body {
 
 .sidebar ul li a:hover,
 .sidebar ul li a:focus {
-    color: #ff4500; /* Bright orange on hover */
-    outline: none; /* Remove outline on focus */
+    color: #ff4500; 
+    outline: none;
 }
 
-/* Content Section */
+
 .content {
     width: 80%;
     padding: 20px;
     overflow-y: auto;
 }
 
-/* Star Section */
+
 .star-section {
     margin-bottom: 40px;
     padding: 20px;
-    border: 1px solid rgba(255, 0, 102, 0.7); /* Pinkish-red border */
+    border: 1px solid rgba(255, 0, 102, 0.7);
     border-radius: 8px;
-    background-color: rgba(30, 30, 30, 0.9); /* Very dark gray */
+    background-color: rgba(30, 30, 30, 0.9); 
 }
 
 .star-section .heading h2 {
@@ -122,7 +121,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;

@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body{
     align-items: center;
     color: white;
     padding: 20px;
-    overflow-y: auto; /* Scroll if content overflows */
+    overflow-y: auto; 
 }
 .sidebar-container{
     height: 60vh;
@@ -44,7 +44,7 @@ body{
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
-    background: linear-gradient(to right, #add3dc, #1f48cd); /* Gradient for paragraph */
+    background: linear-gradient(to right, #add3dc, #1f48cd); 
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +59,7 @@ body{
 }
 
 .sidebar ul li a {
-    color: #00bfff; /* Space blue */
+    color: #00bfff; 
     text-decoration: none;
     font-size: 1.1rem;
     transition: color 0.3s ease;
@@ -69,32 +69,30 @@ body{
     color: #fff;
 }
 
-/* Content Section */
+
 .content {
     width: 80%;
     padding: 20px;
-    overflow-y: auto; /* Scroll if content overflows */
-     /* Slightly lighter dark background */
+    overflow-y: auto; 
     color: white;
 }
 
-/* Constellation Section */
+
 .constellation-section {
     margin-bottom: 40px;
     padding: 20px;
-    border: 1px solid #29909be7; /* Subtle border */
+    border: 1px solid #29909be7; 
     border-radius: 8px;
-    background-color: #222222ae; /* Section background */
+    background-color: #222222ae; 
 }
 
-/* Section Heading */
 .constellation-section .heading h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #00bfff; /* Space blue */
+    color: #00bfff; 
 }
 
-/* Section Info */
+
 .constellation-section .info p {
     font-size: 1rem;
     line-height: 1.6;
@@ -102,19 +100,19 @@ body{
     margin-bottom: 20px;
 }
 
-/* Section Images */
+
 .constellation-section .images {
     display: flex;
     gap: 10px;
 }
 
 .constellation-section .images img {
-    width: 48%; /* Two images side by side */
+    width: 48%; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -130,6 +128,6 @@ body{
     }
 
     .constellation-section .images img {
-        width: 100%; /* Images stack on smaller screens */
+        width: 100%;
     }
 }

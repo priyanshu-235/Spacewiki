@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +13,13 @@ body {
     color: white;
 }
 
-/* Container */
 .container {
     display: flex;
     flex-direction: row;
     height: 100vh;
 }
 
-/* Sidebar Navigation */
+
 .sidebar {
     width: 20%;
     display: flex;
@@ -69,14 +68,13 @@ body {
     color: #fff;
 }
 
-/* Content Section */
+
 .content {
     width: 80%;
     padding: 20px;
     overflow-y: auto;
 }
 
-/* Galaxy Section */
 .galaxy-section {
     margin-bottom: 40px;
     padding: 20px;
@@ -114,7 +112,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
