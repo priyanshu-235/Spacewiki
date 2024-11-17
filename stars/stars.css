@@ -127,7 +127,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
     .container {
         flex-direction: column;
     }
@@ -144,8 +144,10 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .star-section .images img {
         width: 100%;
+    }
+    .star-section>.images>img {
+        width: 100%;
+        max-width: 100%;
     }
 }

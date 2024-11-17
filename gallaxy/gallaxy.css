@@ -138,5 +138,6 @@ body {
     }
     .galaxy-section .images img {
         width: 100%;
+        max-width: 100%;
     }
 }

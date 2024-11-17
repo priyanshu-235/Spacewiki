@@ -346,7 +346,7 @@ footer  input, textarea, button {
     border: 1px solid #333333;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
     .logo>img{
         height: 0px;
         width: 0px;
@@ -371,7 +371,7 @@ footer  input, textarea, button {
         align-items: center; 
     }
     .constellations{
-        top: 180vh;
+        top: 220vh;
         
     }
     .constellations-box{
@@ -397,7 +397,15 @@ footer  input, textarea, button {
         height: auto; 
     }
     footer{
-        top: 200vh;
+        top: 250vh;
+        
+    }
+    .contact{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     footer form {
         width: 100%;
