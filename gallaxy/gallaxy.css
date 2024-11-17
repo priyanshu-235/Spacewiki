@@ -131,7 +131,11 @@ body {
     .content {
         width: 100%;
     }
-
+    .galaxy-section .images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .galaxy-section .images img {
         width: 100%;
     }

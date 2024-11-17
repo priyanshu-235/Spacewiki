@@ -107,7 +107,7 @@ body {
     gap: 55px;
 }
 
-.planet-section .images img {
+.planet-section .images img { 
     width: auto;
     max-width: 45%;
     height: auto;
@@ -136,7 +136,11 @@ body {
     .content {
         width: 100%;
     }
-
+    .planet-section .images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .planet-section .images img {
         width: 100%;
     }

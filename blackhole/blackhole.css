@@ -132,7 +132,11 @@ body {
     .content {
         width: 100%;
     }
-
+    .blackhole-section .images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .blackhole-section .images img {
         width: 100%;
     }
