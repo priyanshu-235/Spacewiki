@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url('./planet-background.jpg');/* Dark space theme */
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(61, 34, 34, 0.574); /* Dark overlay */
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    overflow-y: auto;
+}
+
+.sidebar-container {
+    width: 90%;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, rgba(50, 50, 112, 0.372), rgba(150, 20, 81, 0.326), rgba(250, 200, 100, 0.364));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #ff0000, #ffcc00, #0077ff); /* Space-inspired gradient */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar ul {
+    list-style: none;
+    text-align: left;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: #ffcc00; /* Golden text for links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #ff4500; /* Bright reddish-orange on hover */
+}
+
+/* Content Section */
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Planet Section */
+.planet-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid rgba(255, 204, 0, 0.7); /* Yellowish border */
+    border-radius: 8px;
+    background-color: rgba(43, 43, 43, 0.9); /* Dark gray with opacity */
+}
+
+.planet-section .heading h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #ff4500, #ffcc00, #0077ff, #ff4500);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.planet-section .info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.planet-section .images {
+    display: flex;
+    gap: 15px;
+}
+
+.planet-section .images img {
+    width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.planet-section .images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .planet-section .images img {
+        width: 100%;
+    }
+}
