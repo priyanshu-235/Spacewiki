@@ -98,11 +98,16 @@ body {
 
 .galaxy-section .images {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 55px;
 }
 
 .galaxy-section .images img {
-    width: 48%;
+    width: auto;
+    max-width: 45%;
+    height: auto;
+    max-height: 60vh;
+    min-height: 55vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }

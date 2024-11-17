@@ -108,8 +108,11 @@ body {
 }
 
 .planet-section .images img {
-    width: 38%;
-    height: 55vh;
+    width: auto;
+    max-width: 45%;
+    height: auto;
+    max-height: 60vh;
+    min-height: 55vh;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
