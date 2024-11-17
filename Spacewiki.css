@@ -263,6 +263,7 @@ justify-content: space-evenly;
     border-radius: 10px; 
     max-width: 900px; 
     color: white;
+    height: auto;
 }
 
 
@@ -361,10 +362,10 @@ footer  input, textarea, button {
     }
     header{
     
-        height: 10vh;
+        height: 20vh;
         background-color: black;
         width: 100vw;
-        height: 15%;
+        /* height: 15%; */
         
     }
     .options{
@@ -372,7 +373,7 @@ footer  input, textarea, button {
         height: 10vh;
         background-color: black;
         width: 100vw;
-        height: 15%;
+        height: 20%;
         margin-right: 0px;
         margin-left: 5px;
     }
@@ -388,7 +389,7 @@ footer  input, textarea, button {
         z-index: 3;
     }
     .options>ul{
-        top: 45px;
+        top: 55px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -405,7 +406,8 @@ footer  input, textarea, button {
         height: auto;
     }
     .constellations{
-        top: 220vh;
+        top: 35vh;
+        height: auto;
         
     }
     .constellations-box{
@@ -432,7 +434,8 @@ footer  input, textarea, button {
         height: auto; 
     }
     footer{
-        top: 250vh;
+        top: 50vh;
+        right: 4vw;
         
     }
     .contact{
@@ -447,4 +450,5 @@ footer  input, textarea, button {
         margin: 0;
     }
 }
+
 
