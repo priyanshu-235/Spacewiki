@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     color: #FFFFFF;
     background-image: url('./space.jpg');
@@ -13,12 +14,11 @@ body {
 
 header {
     background: hsl(0, 0%, 0%);
-    padding: 10px;
     display: flex;
     justify-content: center;
     position: fixed;
     height: auto;
-    z-index: 5;
+    z-index: 3;
 
 }
 .logo>img{
@@ -352,12 +352,22 @@ footer  input, textarea, button {
         width: 0px;
     }
     .logo{
+        height: 0px;
+        width: 0px;
         z-index: 0;
     }
     .logo>img:hover{
         cursor:default;
     }
-    header,.options{
+    header{
+    
+        height: 10vh;
+        background-color: black;
+        width: 100vw;
+        height: 15%;
+        
+    }
+    .options{
         margin-bottom: 10px;
         height: 10vh;
         background-color: black;
@@ -378,7 +388,7 @@ footer  input, textarea, button {
         z-index: 3;
     }
     .options>ul{
-        top: 33px;
+        top: 45px;
         position: relative;
         display: flex;
         flex-direction: column;
